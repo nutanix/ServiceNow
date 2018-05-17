@@ -7,7 +7,7 @@ The integrations provided here are *not* production-grade and are provided to si
 
 ## Usage
 
-A detailed set of instructions on how to deploy the ServiceNow integration is documented in the ServiceNowRunBook - NutanixSSPv5 version 5.x.docx file.
+A detailed set of instructions on how to deploy the ServiceNow integration is documented in the ServiceNow_NutanixSSP-RunBook.docx file.
 
 ## Development
 
