@@ -42,7 +42,7 @@ Features specific to individual catalog items:
 
 ## Disclaimer
 
-The integrations provided here are __*not*__ production-grade and are provided to simply demonstrate functionality. Please be advised that these integrations may run and operate in a way that do not follow best practices and therefore need to be reviewed to ensure it meets your requirements.  
+The integrations provided here are __*not*__ production-grade and are provided to simply demonstrate functionality. Please be advised that these integrations may run and operate in a way that do not follow best practices and therefore need to be reviewed to ensure they meet your requirements.  
 
 [Back to Contents](#contents)
 
@@ -78,7 +78,7 @@ All configuration is managed via tables within the NutanixSSP application. The t
 
 Within the ServiceNow instance, both client side and server side JavaScripting is used.
 
-The two catalog items, __Nutanix VM Request__ and __Nutanix Blueprint Request__, both leverage client side __Catalog Client Scripts__ to load the dropdown boxes from the application tables local to the ServiceNow instance or from the Nutanix Prism Central instance depending on where the required data resides. The dropdowns are loaded based on whether the catalog page is loading or a component on that page has changed. If the required data is pulled from the Nutanix Prism Central instance, These scripts in turn call server side __Script Includes__ to make calls out to that instance via REST. When the item is ordered via the __Order Now__ button, the catalog item kicks off the appropriate workflow. For the __Nutanix VM Request__ catalog item the __VM Request Workflow__ is fired, for the __Nutanix Bluepirnt Request__ catalog item the __Blueprint Request Workflow__ is fired. Each of the workflows leverage server side __Script Includes__ to deploy the virtual machines or blueprints via REST.
+The two catalog items, __Nutanix VM Request__ and __Nutanix Blueprint Request__, both leverage client side __Catalog Client Scripts__ to load the dropdown boxes from the application tables local to the ServiceNow instance or from the Nutanix Prism Central instance depending on where the required data resides. The dropdowns are loaded based on whether the catalog page is loading or a component on that page has changed. If the required data is pulled from the Nutanix Prism Central instance, these scripts in turn call server side __Script Includes__ to make calls out to that instance via REST. When the item is ordered via the __Order Now__ button, the catalog item kicks off the appropriate workflow. For the __Nutanix VM Request__ catalog item the __VM Request Workflow__ is fired, for the __Nutanix Bluepirnt Request__ catalog item the __Blueprint Request Workflow__ is fired. Each of the workflows leverage server side __Script Includes__ to deploy the virtual machines or blueprints via REST.
 
 Each of the workflows has a set of stages it goes through that correspond to the tasks that are executing within the workflow. This allows the workflow to be monitored in realtime as either the virtual machine or blueprint are being deployed.
 
@@ -117,10 +117,10 @@ The integration between ServiceNow and Nutanix Calm has been built by leveraging
 [Back to Contents](#contents)
 
 ## Video Demonstrations
-The __Nutanix Blueprint Request__ is covered in the [ServiceNow Integration with Nutanix Calm](https://www.youtube.com/watch?v=qNBbz8lYGKQ) Demo.</br>
-You can find this video on YouTube at://www.youtube.com/watch?v=qNBbz8lYGKQ </br></br>
 The __Nutanix VM Request__ is covered in the [ServiceNow Integration with Nutanix Prism Central](https://www.youtube.com/watch?v=Obysx2l5G1A) Demo.</br>
 You can find this video on YouTube at: https://www.youtube.com/watch?v=Obysx2l5G1A </br></br>
+The __Nutanix Blueprint Request__ is covered in the [ServiceNow Integration with Nutanix Calm](https://www.youtube.com/watch?v=qNBbz8lYGKQ) Demo.</br>
+You can find this video on YouTube at://www.youtube.com/watch?v=qNBbz8lYGKQ </br></br>
 To see a demo of profiles in use, check out the [Nutanix Calm Hybrid Cloud Deployments](https://www.youtube.com/watch?v=2LCC0ZdHDDE) demo.</br>
 You can view this on YouTube at: https://www.youtube.com/watch?v=2LCC0ZdHDDE
 
