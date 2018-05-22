@@ -15,14 +15,13 @@ Community repository for ServiceNow integration with the Nutanix API
   - [Development](#development)
 
 ## Features
-Table based design to allow for simplified import and configuration.</br>
-AD integration.</br>
-Email notification from workflows for both success and failure conditions.</br>
-Intetraged approvals within the workflows.</br>
-Ability to view progress of the deployment in realtime via workflow stages.</br>
-Nutanix Services catalog catagory to help organize the Nutanix specific catalog items within the ServiceNow Service Catalog.</br>
-
 Features for all  catalog items:
+* Table based design to allow for simplified import and configuration.</br>
+* AD integration.</br>
+* Email notification from workflows for both success and failure conditions.</br>
+* Intetraged approvals within the workflows.</br>
+* Ability to view progress of the deployment in realtime via workflow stages.</br>
+* Nutanix Services catalog catagory to help organize the Nutanix specific catalog items within the ServiceNow Service Catalog.</br>
 * Dynamic loading of projects based on:</br>
   * Selected Prism Central instance</br>
   * Project membership of the current user
